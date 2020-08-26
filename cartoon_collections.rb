@@ -10,6 +10,8 @@ def summon_captain_planet(array)
    return planeteer_calls
 end
 
+
+
 def long_planeteer_calls(array)
   array.any? do |word|
     word.length > 4
@@ -23,7 +25,4 @@ def find_the_cheese(array)
   array.find do |cheese|
     cheese_types.include?(cheese)
   end
-
-
-
 end
