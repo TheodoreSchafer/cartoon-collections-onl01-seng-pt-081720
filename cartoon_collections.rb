@@ -20,6 +20,7 @@ def find_the_cheese(array)
   cheese = ["cheddar", "gouda", "provolone"]
   array.find do |cheese|
   end
+  cheese
 
 
 end
